@@ -1,7 +1,6 @@
+12/11/2024                                       S. Siddharth. Register number: 240002384
 
-EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog
-siddharth.s
-
+𝑬𝑿𝑷 1:𝑺𝒕𝒖𝒅𝒚 𝒐𝒇 𝒃𝒂𝒔𝒊𝒄 𝒅𝒊𝒈𝒊𝒕𝒂𝒍 𝑰𝑪’𝒔 𝒂𝒏𝒅 𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝒕𝒓𝒖𝒕𝒉 𝒕𝒂𝒃𝒍𝒆𝒔 𝒇𝒐𝒓 𝒅𝒊𝒇𝒇𝒆𝒓𝒆𝒏𝒕 𝒍𝒐𝒈𝒊𝒄 𝒈𝒂𝒕𝒆𝒔, 𝒓𝒆𝒂𝒍𝒊𝒛𝒂𝒕𝒊𝒐𝒏 𝒖𝒔𝒊𝒏𝒈 𝑽𝒆𝒓𝒊𝒍𝒐𝒈
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
