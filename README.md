@@ -66,21 +66,30 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-module basic_gates (
-    input wire A, // Input A
-    input wire B, // Input B
-    output wire AND_Output, // AND Gate Output
-    output wire OR_Output,  // OR Gate Output
-    output wire NOT_Output  // NOT Gate Output
-);
 
-    // Logic implementation
-    assign AND_Output = A & B;  // AND Gate
-    assign OR_Output = A | B;   // OR Gate
-    assign NOT_Output = ~A;     // NOT Gate (only for A)
+module exp_1(a,b,y1,y2,y3,y4,y5,y6,y7);
+
+input a,b;
+
+output y1,y2,y3,y4,y5,y6,y7;
+
+and g1(y1,a,b);
+
+or g2(y2,a,b);
+
+not g3(y3,a);
+
+nand g4(y4,a,b);
+
+nor g5(y5,a,b);
+
+xor g6(y6,a,b);
+
+xnor g7(y7,a,b);
 
 endmodule
 **Logic symbol & Truthtable**
+
 ![WhatsApp Image 2024-11-19 at 10 04 45_48f37bd3](https://github.com/user-attachments/assets/67accab6-3435-4e45-9853-39205381411d)
 
 
