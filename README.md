@@ -66,27 +66,30 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+module basic_gates (
+    input wire A, // Input A
+    input wire B, // Input B
+    output wire AND_Output, // AND Gate Output
+    output wire OR_Output,  // OR Gate Output
+    output wire NOT_Output  // NOT Gate Output
+);
 
- Developed by: RegisterNumber: 24002384
+    // Logic implementation
+    assign AND_Output = A & B;  // AND Gate
+    assign OR_Output = A | B;   // OR Gate
+    assign NOT_Output = ~A;     // NOT Gate (only for A)
 
- AND 
-
-Module ex1 (a,b,y) ;
-Input a,b;
-Output y ;
-And g1 (y,a,b) ;
-Endmodule
- 
+endmodule
 **Logic symbol & Truthtable**
-![download](https://github.com/user-attachments/assets/7097ca7b-4f2a-4b46-b2cb-8f27042fc6e9)
+![WhatsApp Image 2024-11-19 at 10 04 45_48f37bd3](https://github.com/user-attachments/assets/67accab6-3435-4e45-9853-39205381411d)
+
 
 
 **RTL realization Output:** 
-![Screenshot 2024-11-12 103503](https://github.com/user-attachments/assets/266452fb-205e-40b6-8e9e-bed4eaefa32d)
-
+![image](https://github.com/user-attachments/assets/93469238-515f-4a8f-a8f8-d47aae70b5f4)
 
 **RTL**
-![Screenshot 2024-11-12 104503](https://github.com/user-attachments/assets/1d917a81-ee87-4afa-bc49-a3d4c977e983)
+![image](https://github.com/user-attachments/assets/253dabf2-d898-4710-94f4-92f81bccd0e3)
 
 
 **Result:** 
